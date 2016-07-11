@@ -13,4 +13,31 @@
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:text="Hello World!" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Condition"
+        android:id="@+id/Condition"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        android:id="@+id/btnSunny"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/Condition"
+        android:layout_toStartOf="@+id/Condition" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloudy"
+        android:id="@+id/btnCloudy"
+        android:layout_alignTop="@+id/btnSunny"
+        android:layout_toRightOf="@+id/Condition"
+        android:layout_toEndOf="@+id/Condition" />
 </RelativeLayout>
